@@ -1,0 +1,26 @@
+{
+  "name": "@hanvid/lotide",
+  "version": "1.0.0",
+  "description": "LHL - lotide assignment",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanvidlee/lotide.git"
+  },
+  "author": "hanvid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanvidlee/lotide/issues"
+  },
+  "homepage": "https://github.com/hanvidlee/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^9.2.2"
+  }
+}

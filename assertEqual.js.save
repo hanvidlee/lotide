@@ -1,0 +1,11 @@
+const assertEqual = function(actual, expected) {
+ if (actual === expected) {
+  return true
+}; else { 
+  return false
+};
+}
+
+console.assert(assertEqual("Lighthouse Labs", "Bootcamp") === true, "passed", "failed" );
+console.assert(assertEqual(1, 1));
+

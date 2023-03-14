@@ -1,4 +1,4 @@
-const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
+
 const takeUntil = function(array, callback) {
   const result = []
   for (const item of array) {
@@ -10,8 +10,6 @@ const takeUntil = function(array, callback) {
   return result;
 }
 
-const results1 = takeUntil(data1, x => x < 0);
-console.log(results1);
 
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
@@ -41,4 +39,5 @@ const assertArraysEqual = function(actual,expected){
   }
 };
 
-assertArraysEqual(results1,[ 1, 2, 5, 7, 2 ])
+
+module.exports = takeUntil

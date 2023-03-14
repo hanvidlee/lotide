@@ -10,4 +10,5 @@ const countLetters = function(string) {
   return countOfLetter
 }
 
-console.log(countLetters("LHL"))
+
+module.exports = countLetters
